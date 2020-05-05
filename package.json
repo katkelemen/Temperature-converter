@@ -1,0 +1,21 @@
+{
+  "name": "temperature-converter",
+  "version": "1.0.0",
+  "description": "convert temperature between C, F and K",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Judit Katalin Kelemen",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "vue": "2.6.11"
+  }
+}
