@@ -33,7 +33,7 @@ var app = new Vue({
         .then(
           response =>
             (this.cityTemperature =
-              Math.round(response.data.main.temp - 273.15) + " °C")
+              Math.round(response.data.main.temp - 273.15) + " C")
         )
         .catch(error => console.log(error));
     }
